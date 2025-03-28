@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intyajpersonalportfoliosite.in</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- this link is used for make your portfolio responsive (goof looking phone) -->
+    <!-- <link rel="stylesheet" href="phone.css"> -->
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section(Navbar) -->
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="headerText">
+                <p>Frontend Developer</p>
+                <h1>Hii, I'm <span id="text"></span> <br> form India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, impedit optio ab vero, beatae, sunt
+                        ex ut praesentium eveniet doloremque accusantium consectetur totam. Blanditiis nam reiciendis
+                        facilis molestiae, ab maxime iusto alias totam eligendi! Suscipit aliquam voluptate recusandae
+                        natus cumque doloremque exercitationem omnis atque? Beatae suscipit sint nobis magni iure qui
+                        nesciunt velit sit alias?</p>
+
+                    <div class="tabTitles">
+                        <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tabLinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- SKILLS -->
+                    <div class="tabContents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Website Developer</li>
+                            <li><span>Web Development</span><br>Website app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <!-- EXPERIENCE -->
+                    <div class="tabContents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Frontend Training at Codtech IT Solutions </li>
+                        </ul>
+                    </div>
+                    <!-- EDUCATION  -->
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Computer Science Engineering</li>
+                            <li><span>2023</span><br>Intermediate of Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui praesentium culpa tenetur corrupti
+                        recusandae amet nostrum deleniti voluptatem minima hic!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui praesentium culpa tenetur corrupti
+                        recusandae amet nostrum deleniti voluptatem minima hic!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Software Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui praesentium culpa tenetur corrupti
+                        recusandae amet nostrum deleniti voluptatem minima hic!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>intiyajraj786@gmail.com</p>
+                    <p>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>1234567890
+                    </p>
+                    <div class="social-icons">
+                        <!-- add your social media account link -->
+                        <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                    <!-- add your cv pdf file  -->
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" placeholder="Enter Your Name" name="Name" required>
+                        <input type="email" placeholder="EnterYoue Email" name="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Intiyaj <i class="fa fa-heart" aria-hidden="true"></i> Raj</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
