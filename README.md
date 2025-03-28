@@ -42,4 +42,6 @@ The code structure maintains clean separation of concerns, with modular JavaScri
 
 Through this thoughtful combination of design, animation, and technical implementation, the portfolio website creates a memorable user experience that effectively communicates professional capabilities while demonstrating technical expertise through its very implementation.
 
-## output
+## Output
+<br>
+![Image](https://github.com/user-attachments/assets/0a0d01fb-59c9-491b-a593-42667c629a2b)
