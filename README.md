@@ -45,7 +45,10 @@ Through this thoughtful combination of design, animation, and technical implemen
 ## Output
 <br>
 ![Image](https://github.com/user-attachments/assets/0a0d01fb-59c9-491b-a593-42667c629a2b)
+<br>
 ![Image](https://github.com/user-attachments/assets/f911030b-2f92-4727-84d5-9e55dcb537b5)
+<br>
 ![Image](https://github.com/user-attachments/assets/81063376-fd57-4001-9113-f8879301bfff)
+<br>
 ![Image](https://github.com/user-attachments/assets/0376b530-991a-4786-9430-9cbcb3b24dbc)
 ![Image](https://github.com/user-attachments/assets/1ead10da-ab3d-45b9-9d1e-ea88b5168e3e)
